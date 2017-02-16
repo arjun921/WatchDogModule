@@ -1,0 +1,218 @@
+User1@ubuntu:~$ script 
+.bash_history         Downloads/            Pictures/
+.bash_logout          examples.desktop      .profile
+.bashrc               fontconfig/           Public/
+.cache/               .gconf/               .ssh/
+.compiz/              .ICEauthority         Templates/
+.config/              .local/               Videos/
+Desktop/              .mozilla/             .Xauthority
+.dmrc                 Music/                .xsession-errors
+Documents/            .parallels/           .xsession-errors.old
+User1@ubuntu:~$ script Desktop/config.txt
+Script started, file is Desktop/config.txt
+User1@ubuntu:~$ ssh parallels@10.211.55.11
+The authenticity of host '10.211.55.11 (10.211.55.11)' can't be established.
+ECDSA key fingerprint is 03:4d:44:0c:09:66:ab:0c:2f:10:00:ee:88:ba:b3:01.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '10.211.55.11' (ECDSA) to the list of known hosts.
+parallels@10.211.55.11's password: 
+Welcome to Ubuntu 14.04.4 LTS (GNU/Linux 3.13.0-32-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+New release '16.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+parallels@ubuntu:~$ ls
+Desktop    examples.desktop  Pictures      snoopy-2.4.6.tar.gz  Templates
+Documents  fontconfig        Public        snoopy-install.log   testFile
+Downloads  Music             snoopy-2.4.6  snoopy-install.sh    Videos
+parallels@ubuntu:~$ sudo apt-get install apache2
+[sudo] password for parallels: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  apache2-bin apache2-data libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap
+Suggested packages:
+  apache2-doc apache2-suexec-pristine apache2-suexec-custom apache2-utils
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data libapr1 libaprutil1 libaprutil1-dbd-sqlite3
+  libaprutil1-ldap
+0 upgraded, 7 newly installed, 0 to remove and 230 not upgraded.
+Need to get 1,267 kB of archives.
+After this operation, 5,244 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu/ trusty/main libapr1 amd64 1.5.0-1 [85.1 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ trusty/main libaprutil1 amd64 1.5.3-1 [76.4 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ trusty/main libaprutil1-dbd-sqlite3 amd64 1.5.3-1 [10.5 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ trusty/main libaprutil1-ldap amd64 1.5.3-1 [8,634 B]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ trusty-updates/main apache2-bin amd64 2.4.7-1ubuntu4.13 [839 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ trusty-updates/main apache2-data all 2.4.7-1ubuntu4.13 [160 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ trusty-updates/main apache2 amd64 2.4.7-1ubuntu4.13 [87.4 kB]
+Fetched 1,267 kB in 17s (71.2 kB/s)                                            
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 175362 files and directories currently installed.)
+Preparing to unpack .../libapr1_1.5.0-1_amd64.deb ...
+Unpacking libapr1:amd64 (1.5.0-1) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../libaprutil1_1.5.3-1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.5.3-1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../libaprutil1-dbd-sqlite3_1.5.3-1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.5.3-1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../libaprutil1-ldap_1.5.3-1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.5.3-1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../apache2-bin_2.4.7-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-bin (2.4.7-1ubuntu4.13) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../apache2-data_2.4.7-1ubuntu4.13_all.deb ...
+Unpacking apache2-data (2.4.7-1ubuntu4.13) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../apache2_2.4.7-1ubuntu4.13_amd64.deb ...
+Unpacking apache2 (2.4.7-1ubuntu4.13) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for ufw (0.34~rc-0ubuntu2) ...
+Setting up libapr1:amd64 (1.5.0-1) ...
+Setting up libaprutil1:amd64 (1.5.3-1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.5.3-1) ...
+Setting up libaprutil1-ldap:amd64 (1.5.3-1) ...
+Setting up apache2-bin (2.4.7-1ubuntu4.13) ...
+Setting up apache2-data (2.4.7-1ubuntu4.13) ...
+Setting up apache2 (2.4.7-1ubuntu4.13) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+ * Starting web server apache2                                                  AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+ * 
+Processing triggers for libc-bin (2.19-0ubuntu6.7) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Processing triggers for ufw (0.34~rc-0ubuntu2) ...
+parallels@ubuntu:~$ sudo apt-get upda
+E: Invalid operation upda
+parallels@ubuntu:~$ sudo apt-get update
+Ign http://extras.ubuntu.com trusty InRelease
+Get:1 http://extras.ubuntu.com trusty Release.gpg [72 B]
+Hit http://extras.ubuntu.com trusty Release                                   
+Hit http://extras.ubuntu.com trusty/main Sources                      
+Get:2 http://security.ubuntu.com trusty-security InRelease [65.9 kB]           
+Ign http://us.archive.ubuntu.com trusty InRelease                              
+Hit http://extras.ubuntu.com trusty/main amd64 Packages
+Hit http://extras.ubuntu.com trusty/main i386 Packages                
+Get:3 http://security.ubuntu.com trusty-security/main Sources [124 kB]         
+Get:4 http://us.archive.ubuntu.com trusty-updates InRelease [65.9 kB]          
+Get:5 http://security.ubuntu.com trusty-security/restricted Sources [4,637 B]  
+Ign http://extras.ubuntu.com trusty/main Translation-en_US                     
+Ign http://extras.ubuntu.com trusty/main Translation-en               
+Hit http://us.archive.ubuntu.com trusty-backports InRelease
+Get:6 http://security.ubuntu.com trusty-security/universe Sources [49.3 kB]
+Hit http://us.archive.ubuntu.com trusty Release.gpg                   
+Get:7 http://security.ubuntu.com trusty-security/multiverse Sources [3,208 B]
+Get:8 http://security.ubuntu.com trusty-security/main amd64 Packages [578 kB]  
+Get:9 http://us.archive.ubuntu.com trusty-updates/main Sources [390 kB]        
+Get:10 http://security.ubuntu.com trusty-security/restricted amd64 Packages [13.4 kB]
+Get:11 http://us.archive.ubuntu.com trusty-updates/restricted Sources [5,911 B]
+Get:12 http://us.archive.ubuntu.com trusty-updates/universe Sources [173 kB]   
+Get:13 http://security.ubuntu.com trusty-security/universe amd64 Packages [151 kB]
+Get:14 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [4,136 B]
+Get:15 http://us.archive.ubuntu.com trusty-updates/multiverse Sources [7,535 B]
+Get:16 http://security.ubuntu.com trusty-security/main i386 Packages [539 kB]  
+Get:17 http://security.ubuntu.com trusty-security/restricted i386 Packages [13.1 kB]
+Get:18 http://us.archive.ubuntu.com trusty-updates/main amd64 Packages [943 kB]
+Get:19 http://security.ubuntu.com trusty-security/universe i386 Packages [151 kB]
+Get:20 http://security.ubuntu.com trusty-security/multiverse i386 Packages [4,284 B]
+Get:21 http://security.ubuntu.com trusty-security/main Translation-en [320 kB] 
+Get:22 http://us.archive.ubuntu.com trusty-updates/restricted amd64 Packages [16.4 kB]
+Get:23 http://security.ubuntu.com trusty-security/multiverse Translation-en [2,201 B]
+Get:24 http://security.ubuntu.com trusty-security/restricted Translation-en [3,357 B]
+Get:25 http://security.ubuntu.com trusty-security/universe Translation-en [88.7 kB]
+Get:26 http://us.archive.ubuntu.com trusty-updates/universe amd64 Packages [397 kB]
+Get:27 http://us.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.0 kB]
+Get:28 http://us.archive.ubuntu.com trusty-updates/main i386 Packages [903 kB] 
+Get:29 http://us.archive.ubuntu.com trusty-updates/restricted i386 Packages [16.2 kB]
+Get:30 http://us.archive.ubuntu.com trusty-updates/universe i386 Packages [399 kB]
+Get:31 http://us.archive.ubuntu.com trusty-updates/multiverse i386 Packages [14.4 kB]
+Get:32 http://us.archive.ubuntu.com trusty-updates/main Translation-en [465 kB]
+Get:33 http://us.archive.ubuntu.com trusty-updates/multiverse Translation-en [7,340 B]
+Get:34 http://us.archive.ubuntu.com trusty-updates/restricted Translation-en [3,847 B]
+Get:35 http://us.archive.ubuntu.com trusty-updates/universe Translation-en [210 kB]
+Hit http://us.archive.ubuntu.com trusty-backports/main Sources                 
+Hit http://us.archive.ubuntu.com trusty-backports/restricted Sources           
+Hit http://us.archive.ubuntu.com trusty-backports/universe Sources             
+Hit http://us.archive.ubuntu.com trusty-backports/multiverse Sources           
+Hit http://us.archive.ubuntu.com trusty-backports/main amd64 Packages          
+Hit http://us.archive.ubuntu.com trusty-backports/restricted amd64 Packages    
+Hit http://us.archive.ubuntu.com trusty-backports/universe amd64 Packages      
+Hit http://us.archive.ubuntu.com trusty-backports/multiverse amd64 Packages    
+Hit http://us.archive.ubuntu.com trusty-backports/main i386 Packages           
+Hit http://us.archive.ubuntu.com trusty-backports/restricted i386 Packages     
+Hit http://us.archive.ubuntu.com trusty-backports/universe i386 Packages       
+Hit http://us.archive.ubuntu.com trusty-backports/multiverse i386 Packages     
+Hit http://us.archive.ubuntu.com trusty-backports/main Translation-en          
+Hit http://us.archive.ubuntu.com trusty-backports/multiverse Translation-en    
+Hit http://us.archive.ubuntu.com trusty-backports/restricted Translation-en    
+Hit http://us.archive.ubuntu.com trusty-backports/universe Translation-en      
+Hit http://us.archive.ubuntu.com trusty Release                                
+Hit http://us.archive.ubuntu.com trusty/main Sources                           
+Hit http://us.archive.ubuntu.com trusty/restricted Sources                     
+Hit http://us.archive.ubuntu.com trusty/universe Sources                       
+Hit http://us.archive.ubuntu.com trusty/multiverse Sources                     
+Hit http://us.archive.ubuntu.com trusty/main amd64 Packages                    
+Hit http://us.archive.ubuntu.com trusty/restricted amd64 Packages              
+Hit http://us.archive.ubuntu.com trusty/universe amd64 Packages                
+Hit http://us.archive.ubuntu.com trusty/multiverse amd64 Packages              
+Hit http://us.archive.ubuntu.com trusty/main i386 Packages                     
+Hit http://us.archive.ubuntu.com trusty/restricted i386 Packages               
+Hit http://us.archive.ubuntu.com trusty/universe i386 Packages                 
+Hit http://us.archive.ubuntu.com trusty/multiverse i386 Packages               
+Hit http://us.archive.ubuntu.com trusty/main Translation-en                    
+Hit http://us.archive.ubuntu.com trusty/multiverse Translation-en              
+Hit http://us.archive.ubuntu.com trusty/restricted Translation-en              
+Hit http://us.archive.ubuntu.com trusty/universe Translation-en                
+Ign http://us.archive.ubuntu.com trusty/main Translation-en_US                 
+Ign http://us.archive.ubuntu.com trusty/multiverse Translation-en_US
+Ign http://us.archive.ubuntu.com trusty/restricted Translation-en_US
+Ign http://us.archive.ubuntu.com trusty/universe Translation-en_US
+Fetched 6,148 kB in 1min 23s (73.6 kB/s)
+Reading package lists... Done
+parallels@ubuntu:~$ exit
+logout
+Connection to 10.211.55.11 closed.
+User1@ubuntu:~$ exit
+exit
+Script done, file is Desktop/config.txt
+
