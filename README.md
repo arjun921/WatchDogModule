@@ -6,12 +6,17 @@ Second sem Mini Project
 
 Todo
 
-- [x] Track User Inputs
-- [x] Write Inputs to file
-- [x] Text Preprocessing
+- [x] #### Track User Inputs
+
+- [x] #### Write Inputs to file
+
+- [x] #### Text Preprocessing
+
       - [x] Seperate Inputs and Outputs
       - [ ] Remove Uncessary Keywords
-- [ ] Create WebUI
+
+- [ ] #### Create WebUI
+
       - [ ] Loads FIle
       - [ ] Enter Archive Name
       - [ ] List Inputs(ONLY)
