@@ -1,7 +1,7 @@
-]0;User1@ubuntu: ~User1@ubuntu:~$ ssh  [Kparallels@10.211.55.11
-]0;parallels@ubuntu: ~parallels@ubuntu:~$ ls
-]0;parallels@ubuntu: ~parallels@ubuntu:~$ cd [K[K[Ksudo[K[K[K[Ksudo apt-get install apacje[K[Khe2
-]0;parallels@ubuntu: ~parallels@ubuntu:~$ sudo apt-get upda
-]0;parallels@ubuntu: ~parallels@ubuntu:~$ sudo apt-get update
-]0;parallels@ubuntu: ~parallels@ubuntu:~$ exit
-]0;User1@ubuntu: ~User1@ubuntu:~$ exit
+ssh parallels@10.211.55.11
+ls
+sudo apt-get install apache2
+sudo apt-get upda
+sudo apt-get update
+exit
+exit
