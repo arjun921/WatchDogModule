@@ -4,8 +4,6 @@ td,th {
 }
 
 </style>
-
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,7 +11,6 @@ td,th {
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Inputs</title>
@@ -24,7 +21,7 @@ td,th {
         <tr><th style="width=100%">Input to be kept or not?</th></tr>
         <?php
         echo "<tr><th>Checkbox</th><th>Input Executed</th></tr>";
-        if ($file = fopen("inputs.txt", "r")) {
+        if ($file = fopen("Processed.txt", "r")) {
 
             while(!feof($file)) {
                 $line = fgets($file);

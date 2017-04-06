@@ -1,0 +1,7 @@
+ssh parallels@10.211.55.11
+ls
+sudo apt-get install apache2
+sudo apt-get upda
+sudo apt-get update
+exit
+exit
