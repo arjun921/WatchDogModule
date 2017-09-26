@@ -1,0 +1,355 @@
+Script started on Tue Apr 11 15:36:31 2017
+bash: /Users/arjuns/.bashrc: Too many levels of symbolic links
+[?1034hbash-3.2$ ls
+Android				Pictures
+Applications			Public
+Applications (Parallels)	Sites
+Desktop				VM Library
+Documents			Working_Directory
+Downloads			anaconda
+Library				expert-invention
+Movies				newfile
+Music				odrive
+Parallels			tracking.txt
+bash-3.2$ cd W[KRe[K[KWorking_Directory/refactored-lamp/classPracticals/
+bash-3.2$ ls
+10overlapping.py	19-99bottles.py		4Vowel.py
+11genChars.py		1Max.py			5Translate.py
+12hist.py		20Swedish.ipynb		6SumMul.py
+13largest.py		20Swedish.py		7reverse.py
+14Map.py		21charFreq.ipynb	8Palindrome.py
+15LongestWord.py	22Crypt.ipynb		9member.py
+16filter.py		23SpellCheckRegEx.ipynb	practice
+17palRecog.py		2max_of_3.py
+18pangram.py		3LenOfString.py
+bash-3.2$ sup[K[K[Kbrew install espeak
+Updating Homebrew...
+[34m==>[0m [1mAuto-updated Homebrew![0m
+Updated 2 taps (homebrew/core, homebrew/dupes).
+[34m==>[0m [1mNew Formulae[0m
+alexjs                 fzy                    latexila               screen
+apple-gcc42            gitter-cli             less                   shfmt
+awk                    gnupg@1.4              libcds                 spigot
+awslogs                gnupg@2.0              libedit                streamlink
+bc                     gobuster               libetpan               tcl-tk
+biogeme                gpatch                 libiconv               tcpdump
+bit                    gperf                  libpcap                teleport
+bluepill               grep                   llvm@3.9               terraform-docs
+bzip2                  groff                  lsof                   tfenv
+conjure-up             grunt                  m4                     unzip
+crowdin                gtef                   magic-wormhole         urh
+ctop                   guetzli                make                   whois
+dhall-json             gzip                   nano                   woboq_codebrowser
+diffstat               heimdal                ncompress              write-good
+diffutils              httpflow               ncurses                xmlsectool
+dmtx-utils             jenkins-lts            ntp                    xsv
+ed                     juju-wait              openldap               [1mzlib [32m✔[0m[0m
+exa                    jvm-mon                openssh                zxing-cpp
+expect                 krb5                   prest
+file-formula           lapack                 rsync
+[34m==>[0m [1mUpdated Formulae[0m
+abcde                         gofabric8                     osquery
+ace                           goffice                       osrm-backend
+ack                           gollum                        p11-kit
+acpica                        googler                       packetbeat
+activemq                      gor                           paket
+admesh                        gosu                          pango
+advancemame                   gotags                        par2
+afl-fuzz                      gpa                           parallel
+aha                           gpg-agent                     pari
+alot                          gpgme                         passpie
+alpine                        grails                        pcap_dnsproxy
+amazon-ecs-cli                graphene                      pcre
+ansible                       greed                         pcre2
+antigen                       groonga                       pdal
+apache-drill                  groovy                        pdf2htmlex
+apache-geode                  grpc                          pdftoedn
+apache-zeppelin               gsettings-desktop-schemas     pdftoipe
+app-engine-java               gspell                        peco
+aptly                         gssdp                         percona-server
+aptly-completion              gti                           percona-xtrabackup
+arangodb                      gtk+3                         pgcli
+archi-steam-farm              gtksourceview3                pgpool-ii
+arm                           gucharmap                     pgrouting
+armor                         guile                         pidgin
+artifactory                   gupnp                         [1mpkg-config [32m✔[0m[0m
+asn1c                         gwenhywfar                    plantuml
+astyle                        gxml                          platformio
+atk                           h2o                           plustache
+ats2-postiats                 handbrake                     pmd
+augeas                        haproxy                       pngquant
+autoconf-archive              harfbuzz                      poco
+autogen                       hashcat                       ponyc
+avra                          haskell-stack                 poppler
+aws-elasticbeanstalk          haxe                          pre-commit
+aws-sdk-cpp                   hebcal                        prettyping
+awscli                        highlight                     proftpd
+azure-cli                     hledger                       proselint
+b2-tools                      honcho                        protobuf
+babel                         httest                        psqlodbc
+bacula-fd                     hugo                          purescript
+bagit                         hunspell                      pushpin
+baobab                        hyper                         pwntools
+bash-git-prompt               i3status                      pybind11
+[1mbazel [32m✔[0m[0m                       ibex                          pyenv
+bitrise                       icecast                       pygobject3
+blackbox                      idris                         pyinvoke
+bmake                         ievms                         pypy
+boom-completion               imagemagick                   python3
+borg                          imagemagick@6                 qbs
+botan                         imlib2                        qca
+boxes                         influxdb                      qcachegrind
+brotli                        ipfs                          qjackctl
+buku                          irssi                         qjson
+bup                           jboss-forge                   qscintilla2
+byobu                         jenkins                       qtads
+cake                          jetty                         quazip
+calcurse                      jetty-runner                  quex
+cargo-completion              jfrog-cli-go                  qwt
+carrot2                       jid                           qwtpolar
+carthage                      jmxtrans                      qxmpp
+castxml                       jruby                         rabbitmq
+ccache                        jshon                         ragel
+certbot                       json-fortran                  rancher-cli
+certigo                       json-glib                     rancher-compose
+chakra                        jsonschema2pojo               rclone
+chapel                        juju                          re2
+charm                         jumanpp                       [1mreadline [32m✔[0m[0m
+charm-tools                   jump                          redpen
+checkstyle                    kafka                         rgbds
+chromaprint                   kafkacat                      riak
+chromedriver                  khal                          riemann
+clang-format                  kibana                        ripgrep
+clhep                         knot                          rlwrap
+clipsafe                      knot-resolver                 rmlint
+clutter-gst                   kobalt                        robot-framework
+cmake                         kompose                       rocksdb
+cnats                         kops                          roswell
+cockatrice                    kotlin                        rpcgen
+codequery                     ktmpl                         rtags
+coffeescript                  kube-aws                      rtv
+collector-sidecar             kubernetes-cli                ruby
+color-code                    kubernetes-helm               ruby-build
+commandbox                    latex2html                    rust
+compcert                      ldc                           s-lang
+conan                         lean-cli                      s-search
+consul                        lft                           s6
+consul-backinator             lftp                          sbcl
+consul-template               libarchive                    sbt
+convox                        libbluray                     scipy
+[1mcoreutils [32m✔[0m[0m                   libbtbb                       screenfetch
+coturn                        libchamplain                  scw
+cppcheck                      libcouchbase                  selenium-server-standalone
+creduce                       libcroco                      sflowtool
+crystal-icr                   libffi                        sha1dc
+crystal-lang                  libgee                        shadowsocks-libev
+crystax-ndk                   libgosu                       shairport-sync
+csvtomd                       [1mlibgpg-error [32m✔[0m[0m                shared-mime-info
+cucumber-cpp                  libgphoto2                    shellcheck
+dante                         libgtop                       shyaml
+dar                           libgweather                   simple-obfs
+davmail                       libhttpseverywhere            sip
+dbhash                        liblastfm                     sjk
+dbus                          liblcf                        skinny
+dcmtk                         liblinear                     slimerjs
+debianutils                   libmatroska                   slrn
+deis                          libming                       smali
+dfc                           libmpdclient                  snap-telemetry
+dialog                        libmtp                        snappystream
+diff-pdf                      libmxml                       softhsm
+dirmngr                       libosmium                     solarus
+discount                      libphonenumber                solr
+django-completion             [1mlibpng [32m✔[0m[0m                      sonar-scanner
+djview4                       librdkafka                    sonarqube
+dmd                           librsvg                       source-to-image
+docker                        libsecret                     sourcekitten
+docker-completion             libsodium                     sourcery
+docker-compose                libspectre                    spdlog
+docker-credential-helper      libsquish                     sphinx-doc
+docker-machine-completion     libstfl                       sqldiff
+doctl                         libtensorflow                 sqlite
+doitlive                      libtins                       sqlite-analyzer
+dosfstools                    libtommath                    sqlmap
+dovecot                       libvoikko                     sqlparse
+dpkg                          libwebsockets                 squid
+dspdfviewer                   libwps                        ssdb
+dub                           linkerd                       ssh-copy-id
+duplicity                     lldpd                         sshguard
+dvm                           llvm                          statik
+easyrpg-player                logstash                      stdman
+efl                           logtalk                       stern
+ejabberd                      lumo                          stone-soup
+ejdb                          lxc                           stout
+elasticsearch                 lynis                         strongswan
+elixirscript                  lzo                           stunnel
+elm-format                    macvim                        stuntman
+emp                           mailutils                     svgcleaner
+erlang                        mapserver                     svtplay-dl
+esniper                       mariadb                       swi-prolog
+etcd                          mariadb@10.0                  swiftformat
+eventql                       maven                         swiftlint
+evince                        mbedtls                       swiftplate
+excel-compare                 mdk                           swimat
+[1mexercism [32m✔[0m[0m                    media-info                    sxiv
+exim                          mediaconch                    syncthing
+fabio                         mednafen                      sysbench
+fabric                        memcached                     sysdig
+fdroidserver                  menhir                        tailor
+feedgnuplot                   mercurial                     talloc
+fftw                          meson                         tarsnap-gui
+file-roller                   mesos                         tarsnapper
+filebeat                      metabase                      tbb
+fio                           metricbeat                    tcpreplay
+flow                          mg3a                          telegraf
+fluent-bit                    mighttpd2                     termius
+flyway                        mikutter                      terraform
+folly                         miller                        testssl
+fonttools                     mingw-w64                     texmath
+fossil                        minimesos                     tgui
+fpc                           minio                         thefuck
+fq                            minio-mc                      tinc
+freeradius-server             minizinc                      tintin
+frege                         mitmproxy                     tnef
+fuse-emulator                 mkdocs                        todolist
+g3log                         mkvtoolnix                    todoman
+galen                         mobile-shell                  tomcat
+gammaray                      modd                          tomcat@6
+gammu                         molecule                      tomcat@7
+gauge                         monetdb                       tomcat@8.0
+gcc@4.9                       mongo-c-driver                transcrypt
+gdal                          mongodb                       translate-shell
+gdbm                          monit                         translate-toolkit
+gdk-pixbuf                    mono                          treefrog
+gearboy                       monotone                      ttyd
+gearsystem                    mosquitto                     tundra
+geckodriver                   mpd                           twarc
+gegl                          mpdas                         typescript
+generate-json-schema          mycli                         ubertooth
+geographiclib                 mysql@5.5                     urweb
+geoip                         mysql@5.6                     uwsgi
+geoserver                     nativefier                    vagrant-completion
+getdns                        nats-streaming-server         vala
+getmail                       ncmpc                         valabind
+gexiv2                        neo4j                         vapoursynth
+ghostscript                   netpbm                        varnish
+gifcap                        newt                          vault
+giflib                        nghttp2                       vaulted
+git                           node                          vegeta
+git-annex                     node-build                    vert.x
+git-archive-all               node@4                        vice
+git-cola                      node@6                        vim
+git-ftp                       nomad                         vmtouch
+git-lfs                       notmuch                       vnu
+git-plus                      npth                          vte3
+git-quick-stats               nspr                          vultr
+git-subrepo                   nsq                           wakatime-cli
+git-town                      nss                           wartremover
+gitbucket                     nudoku                        weboob
+github-release                nuget                         webpack
+gitlab-ci-multi-runner        numpy                         wesnoth
+gjs                           nvc                           wine
+glassfish                     nzbget                        winetricks
+glib                          ocrad                         wireguard-tools
+glibmm                        offlineimap                   xapian
+gnome-autoar                  omega                         xdot
+gnome-builder                 ompl                          xmake
+gnome-icon-theme              oniguruma                     xonsh
+gnome-themes-standard         ooniprobe                     xplanet
+gnu-apl                       open-mpi                      yadm
+gnu-units                     openmotif                     yarn
+gnumeric                      openrtsp                      yaz
+gnupg                         opensc                        yle-dl
+gnuplot                       openttd                       youtube-dl
+gnuradio                      openvdb                       zenity
+gnutls                        openvpn                       zimg
+go                            ophcrack                      zinc
+gobject-introspection         orientdb                      znc
+godep                         osc                           zstd
+goenv                         osmfilter                     zurl
+[34m==>[0m [1mRenamed Formulae[0m
+bazel02 -> bazel@0.2
+bigdata -> blazegraph
+bison27 -> bison@2.7
+boost-python159 -> boost-python@1.59
+cassandra21 -> cassandra@2.1
+cassandra22 -> cassandra@2.2
+clang-format38 -> clang-format@3.8
+docker111 -> docker@1.11
+docker171 -> docker@1.71
+eris -> monax
+ffmpeg28 -> ffmpeg@2.8
+freetds091 -> freetds@0.91
+glfw2 -> glfw@2
+gnuplot4 -> gnuplot@4
+gradle214 -> gradle@2.14
+grails25 -> grails@2.5
+gsl1 -> gsl@1
+gst-plugins-bad010 -> gst-plugins-bad@0.10
+gst-plugins-base010 -> gst-plugins-base@0.10
+gst-plugins-good010 -> gst-plugins-good@0.10
+gst-plugins-ugly010 -> gst-plugins-ugly@0.10
+gstreamer010 -> gstreamer@0.10
+influxdb08 -> influxdb@0.8
+jboss-as5 -> jboss-as@5
+jetty8 -> jetty@8
+jpeg6b -> jpeg@6
+jpeg9 -> jpeg@9
+kafka080 -> kafka@0.80
+kibana41 -> kibana@4.1
+kibana44 -> kibana@4.4
+kubernetes-cli13 -> kubernetes-cli@1.3
+ledger26 -> ledger@2.6
+libpng12 -> libpng@1.2
+libpqxx3 -> libpqxx@3
+libxml278 -> libxml2@2.7
+logstash24 -> logstash@2.4
+mapnik2 -> mapnik@2
+maven31 -> maven@3.1
+maven32 -> maven@3.2
+mongodb30 -> mongodb@3.0
+mongodb32 -> mongodb@3.2
+open-mpi16 -> open-mpi@1.6
+percona-server55 -> percona-server@5.5
+percona-server56 -> percona-server@5.6
+perl514 -> perl@5.14
+perl518 -> perl@5.18
+phantomjs192 -> phantomjs@1.92
+phantomjs198 -> phantomjs@1.98
+postgresql94 -> postgresql@9.4
+postgresql95 -> postgresql@9.5
+pyqt5 -> pyqt
+qt5 -> qt
+rebar3 -> rebar@3
+recipes -> gnome-recipes
+redis26 -> redis@2.6
+redis28 -> redis@2.8
+ruby187 -> ruby@1.8
+ruby193 -> ruby@1.9
+ruby20 -> ruby@2.0
+ruby21 -> ruby@2.1
+ruby22 -> ruby@2.2
+ruby23 -> ruby@2.3
+selenium-server-standalone245 -> selenium-server-standalone@2.45
+solr54 -> solr@5.4
+solr55 -> solr@5.5
+srtp15 -> srtp@1.5
+subversion18 -> subversion@1.8
+swig2 -> swig@2
+swig304 -> swig@3.04
+thrift090 -> thrift@0.90
+unison240 -> unison@2.40
+v8-315 -> v8@3.15
+varnish4 -> varnish@4
+vim74 -> vim@7.4
+zeromq32 -> zeromq@3.2
+zeromq40 -> zeromq@4.0
+[34m==>[0m [1mDeleted Formulae[0m
+devhelp                fb-adb                 libgroove              scsh
+elasticsearch@1.7      gnupg2                 multirust              webkitgtk
+elasticsearch@2.3      homebrew/dupes/srm     s3sync                 xstow
+
+[33mWarning:[0m espeak-1.48.04_1 already installed
+bash-3.2$ exit
+exit
+
+Script done on Tue Apr 11 15:38:37 2017
